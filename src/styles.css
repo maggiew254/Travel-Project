@@ -159,14 +159,16 @@ footer a {
 
 .grid {
   display: grid;
-
   grid-gap: 60px;
 }
 
-.grid-3-col {
+.grid-3-col-one-small {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .grid-2-col {
   grid-template-columns: 1fr 1fr;
 }
@@ -175,6 +177,9 @@ footer a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.instagram-embeds {
+  margin: 30px 0;
+}
 .card {
   background: white;
   margin: 30px 0;
